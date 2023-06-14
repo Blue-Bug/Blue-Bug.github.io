@@ -3,14 +3,15 @@ module.exports = {
     title: `BlueBug의 개발 블로그`,
     description: `Front-end(React,typescript),Back-end(Spring,Java,Kotlin,C++,Socket)을 주로 사용합니다.`,
     author: `BlueBug`,
-    siteUrl: "https://Blue-Bug.github.io/",
+    siteUrl: "https://blue-bug.github.io/",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-canonical-urls",
       options: {
-        siteUrl: "https://Blue-Bug.github.io/",
+        siteUrl: "https://blue-bug.github.io/",
         stripQueryString: true,
       },
     },
