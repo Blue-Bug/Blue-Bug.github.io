@@ -54,6 +54,7 @@ const CategoryList: FunctionComponent<CategoryListProps> = function ({
   selectedCategory,
   categoryList,
 }) {
+  console.log(selectedCategory)
   return (
     <CategoryListWrapper>
       {Object.entries(categoryList).map(([name,count])=>(
