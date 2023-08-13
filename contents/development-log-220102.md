@@ -1,7 +1,7 @@
 ---
 date: "2022-01-02"
 title: "22.01.02 MyPlaylist 프로젝트 개발일지"
-categories: ["개발일지"]
+categories: ["Devlog"]
 summary: "리다이렉트 문제 발생"
 thumbnail: "../static/devlog.png"
 ---

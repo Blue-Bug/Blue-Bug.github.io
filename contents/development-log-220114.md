@@ -1,7 +1,7 @@
 ---
 date: "2022-01-14"
 title: "22.01.14 MyPlaylist 프로젝트 개발일지"
-categories: ["개발일지"]
+categories: ["Devlog"]
 summary: "Post 테스트 중 오류 발생"
 thumbnail: "../static/devlog.png"
 ---
@@ -13,7 +13,7 @@ thumbnail: "../static/devlog.png"
 ### 2. TEST에서 Lazy Loading 예외 발생 => @Transactional을 붙여주니 돌아감 => 영속성 컨텍스트가 없었나?
 
       2-1. 일단 왜 Lazy Loading이 되나 찾아봤더니 Posts에서 Member 객체를 가지고 Posts 작성자를
-      설정 후 Member 객체의 Posts List에 넣어주는 과정에서 Lazy Loading 발생
+           설정 후 Member 객체의 Posts List에 넣어주는 과정에서 Lazy Loading 발생
       2-2. 근데 어차피 Service에 Transactional 어노테이션이 붙어있기 때문에 영속성 컨텍스트가 있을텐데?
       2-3. Member 객체가 세션에 있던 Detached 객체 였던 것 (영속성 컨텍스트가 관리하지 않는 객체임)
       2-4. PostsService에서 createPosts 메소드 실행전 Member 객체를 다시 Attached 시켜줌

@@ -1,7 +1,7 @@
 ---
 date: "2022-01-07"
 title: "22.01.07 MyPlaylist 프로젝트 개발일지"
-categories: ["개발일지"]
+categories: ["Devlog"]
 summary: "개발 중 팁"
 thumbnail: "../static/devlog.png"
 ---

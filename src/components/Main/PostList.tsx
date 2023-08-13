@@ -29,7 +29,7 @@ const PostList: FunctionComponent<PostListProps> = function ({
   posts,
 }) {
   
-  const { containerRef,postList }: useInfiniteScrollType = useInfiniteScroll(selectedCategory,posts)
+  const { containerRef,postList }: useInfiniteScrollType = useInfiniteScroll(selectedCategory,posts,)
 
   return (
     <PostListWrapper ref={containerRef}>

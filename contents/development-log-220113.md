@@ -1,7 +1,7 @@
 ---
 date: "2022-01-13"
 title: "22.01.13 MyPlaylist 프로젝트 개발일지"
-categories: ["개발일지"]
+categories: ["Devlog"]
 summary: "플레이리스트 조회 시 무한루프 발생"
 thumbnail: "../static/devlog.png"
 ---
